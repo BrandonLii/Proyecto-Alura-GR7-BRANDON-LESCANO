@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+* {
+  background: #E5E5E5;
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 60%;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.logo {
+  padding-top: 30px;
+  margin-left: 10px;
+  width: 10%;
+}
+
+.cuadro-de-entrada{
+
+  
+}
+
+#ingreso-de-texto {
+  display: flex;
+  margin-top: 80px;
+  margin-right: 893px;
+  margin-bottom: 568px;
+  margin-left: 240px;
+  border: none;
+}
+
+.informacion{
+  margin-left: 240PX;
+  font-size: 12px;
+  color: #195057;
+  
+}
+
+.interaccion {
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+}
+
+
+button {
+  border-radius: 24px;
+  cursor: pointer;
+  height: 67px;
+  width: 328px;
+  margin-left: 10px;  
+
+}
+
+.boton_encriptar {
+  font-size: 16px;
+  margin: 12px;
+  margin-left: 240px;
+  border-radius: 24px;
+  background-color: #0a3871;
+  border: 1px solid #0a3871;
+  color: white;
+  
+}
+
+.boton_desencriptar{
+  font-size: 16px;
+  margin: 12px;
+  background-color: #D8DFE8;
+  border: 1px solid #0a3871;
+  color: #0a3871;
+  
+}
+
+#cuadro-de-salida{
+
+  display: flex;
+  flex-direction: row-reverse
+  
+  
+}
+.mensaje{
+  display: flex;
+
+  margin-top: -1041px;
+  margin-right: 40px;
+}
+
+::placeholder {
+  color: #0a3871;
+}
+.recibir_mensaje:focus {
+  outline: none;
+}
+
+#palabra-de-salida {
+  margin-top: 20px;
+  margin-left: 98px;
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 400px;
+  height: 944px;
+  /*height: 450px;*/
+  line-height: 32px;
+  background: white;
+  background-image: url("../img/doll.webp");
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 24px;
+  color: #0a3871;
+  text-transform: lowercase;
+  
+}
+.boton_copiar{
+
+  font-size: 16px;
+  border: 1px solid #0a3871;
+  color: #0a3871;
+  margin-top: -81px;
+  margin-right: 72px;
+  margin-bottom: 72px;
+  margin-left: 120px;
+  position: absolute;
+  width: 336px;
+  
+}
+
+
+#palabra-de-salida:focus {
+  outline: none;
+}
+
+.redes-sociales {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.redes-sociales a {
+  margin-right: 10px;
+  color: #000;
+  text-decoration: none;
+}
+
+.redes-sociales a:hover {
+  color: #888;
+}
+
+
+footer {
+  margin-top: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+@media screen and (max-width:480px) {
+
+}

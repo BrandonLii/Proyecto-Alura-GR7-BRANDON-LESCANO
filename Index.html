@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Encriptado/Desencriptador</title>
+
+    
+</head>
+
+<body>
+
+    <header>
+        <img src="/assets/logo.svg" alt="logo alura" class="logo" /> 
+    </header>
+    
+
+    <main>
+        <div class="cuadro-de-entrada">
+           
+            <textarea
+            id="ingreso-de-texto"
+            cols="30" rows="10"
+            class="recibir_mensaje"
+            placeholder="Ingrese el texto aqui"
+            ></textarea>
+            
+            
+            <div>
+                <h6 class="informacion"> Solo letras minusculas y sin acentos</h6>
+            </div>
+
+            <div class="interaccion">
+                                
+                <button class="boton_encriptar" onclick="encriptar_palabra()">Encriptar !</button>
+                    
+                <button class="boton_desencriptar" onclick="desencriptar_palabra()"> Desencriptar !</button>
+
+            </div>
+
+            
+        </div>
+
+        <div id="cuadro-de-salida">
+                        
+                <div class="mensaje"> 
+                    <span id="palabra-de-salida" > </span> 
+                </div>
+
+                
+
+                <button  class="boton_copiar" onclick="copiar_palabra()">Copiar</button>
+            
+            
+
+        </div>
+    
+    </main>
+    
+    <footer>
+
+        <div class="redes-sociales">
+            <a href="https://github.com/BrandonLii" target="_blank" class="github"> GITHUB</a>
+            <a href="www.linkedin.com/in/brandon-liber-lescano-andrade" target="_blank" class= "linkedin">LINKEDIN</a>
+          </div>
+
+    </footer>
+
+    <script src="programa.js"></script>
+    <link rel="stylesheet" href="./styles/style.css"></link>
+
+</body>
+</html>
