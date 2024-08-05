@@ -41,7 +41,6 @@ body {
   text-align: left;
   display: flex;
   margin-top: 168px;
-  margin-bottom: 635px;
   margin-left: 240px;
   border-color: transparent;
   width: auto;
@@ -49,14 +48,14 @@ body {
 
 h6{
   display: flex;
+  margin-top: 0px;
   margin-bottom: 16px;
   margin-left: 240px;
   font-family: "Inter";
   text-align: left;
   opacity: 80%;
   font-size: 12px;
-  font-weight: 400;
-  line-height: 18px;
+  
   
 }
 
@@ -64,6 +63,11 @@ h6{
   display: flex;
  width: 680px;
  margin-left: 240px;
+}
+.cuadro-botones{
+  display: flex;
+  flex-direction: column;
+  margin-top: 635px;
 }
 
 
@@ -97,15 +101,11 @@ button {
 #cuadro-de-salida{
 
   display: flex;
-  width: 400px;
-  height: 944px;
   flex-wrap: wrap;
   margin: 40px 40px 40px 80px;
   background-color: #FFFFFF;
   width: 400px;
   height: 944px;
-  top: 40px;
-  left: 1000px;
   gap: 0px;
   border-radius: 32px;
   opacity: 0px;
@@ -113,11 +113,10 @@ button {
   
   
 }
+
 .margen-de-salida{
   display: flex;
-
-  margin-top: -1041px;
-  margin-right: 40px;
+  margin: 32px 32px 32px 32px;
 }
 
 
@@ -126,6 +125,9 @@ button {
   box-sizing: border-box;
   width: 336px;
   background-color: transparent;
+  width: 336px;
+  height: 781px;
+  background-color: #FFFFFF;
   
 }
 .boton_copiar{
@@ -136,6 +138,7 @@ button {
   font-size: 16px;
   border: 1px solid #0a3871;
   color: #0a3871;
+  margin: 0px 32px 32px 32px
 }
 
 .redes-sociales {
