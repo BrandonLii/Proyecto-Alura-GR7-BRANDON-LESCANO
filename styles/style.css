@@ -35,8 +35,9 @@ body {
 
 #ingreso-de-texto {
   font-family: "Inter";
+  color: #0A3871;
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 400px;
   line-height: 48px;
   text-align: left;
   display: flex;
@@ -117,6 +118,8 @@ button {
 .margen-de-salida{
   display: flex;
   margin: 32px 32px 32px 32px;
+  background-color: #FFFFFF;
+  font-size: 24px;
 }
 
 
@@ -124,10 +127,11 @@ button {
 #palabra-de-salida {
   box-sizing: border-box;
   width: 336px;
-  background-color: transparent;
-  width: 336px;
   height: 781px;
   background-color: #FFFFFF;
+  color: #495057;
+  line-height: 36px;
+
   
 }
 .boton_copiar{
